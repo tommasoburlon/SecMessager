@@ -1,0 +1,11 @@
+
+
+-to build the project type:
+make all
+
+-to build the project and generate sample of the server and of some user 
+with their keys and certificate execute:
+
+make user -j8 ARGS="UTENTE1 UTENTE2 .... UTENTEN"
+
+this command will create N user called USER1, USER2, ... ecc ecc
